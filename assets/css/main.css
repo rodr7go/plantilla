@@ -1266,7 +1266,6 @@
 	header.major {
 		position: relative;
 		text-align: center;
-		border-top: solid 2px rgb(153, 202, 234);
 		top: 1em;
 	}
 
@@ -1283,12 +1282,11 @@
 
 	.box {
 		background: #ffffff;
-		border-bottom: solid 1px #ccc;
 	}
 
 		.box .image.featured {
 			position: relative;
-			width: 90%;
+			width: 70%;
 			text-align: center;
 		}
 
@@ -1390,7 +1388,7 @@
 
 		.image.featured {
 			display: block;
-			width: 100%;
+			width: 80%;
 			margin: 0 0 2em 0;
 		}
 
@@ -1656,7 +1654,7 @@
 /* Banner */
 
 	#banner {
-		background: #CCE8F4 url("../../images/brazo-robotico.jpg");
+		background: #CCE8F4 url("../../images/brazo-robotico1.jpg");
 		background-position: 90% 40%;
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -1664,7 +1662,7 @@
 	}
 
 		#banner header {
-			background-color: rgba(0, 47, 86, 0.5);
+			background-color: rgba(0, 47, 86, 0.6);
 		}
 
 			#banner header h2 {
@@ -1680,6 +1678,9 @@
 			}
 
 /* Wrappers */
+
+
+
 
 	#header-wrapper {
 		position: relative;
@@ -1807,9 +1808,10 @@
 			}
 
 				.box .image.featured {
-					left: 4.6em;
+					left: 7em;
 					top: 1.75em;
 					margin: -4.5em 0 4.25em -3.5em;
+
 				}
 
 				.box.post header {
@@ -1882,7 +1884,7 @@
 		/* Wrappers */
 
 			#header-wrapper {
-				padding: 4.5em 0 4em 0;
+				padding: 3em 0 4em 0;
 			}
 
 			#main-wrapper {
@@ -1915,6 +1917,12 @@
 					margin: 0 0 1em 0;
 				}
 
+				#header-logo
+				{
+					width: 300px;
+					margin: 0 auto
+				}
+
 		/* Nav */
 
 			#nav > ul {
@@ -1923,7 +1931,6 @@
 
 				#nav > ul > li {
 					display: inline-block;
-					font-style: italic;
 					margin: 0 0.35em 0 0.35em;
 				}
 
@@ -1932,7 +1939,6 @@
 					}
 
 					#nav > ul > li > a {
-						border-radius: 5px;
 						color: #5d5d5d;
 						text-decoration: none;
 						padding: 0.6em 1.2em 0.6em 1.2em;
@@ -1950,9 +1956,8 @@
 					#nav > ul > li.current > a {
 						/*background: #d52349;*/
 						/*background: #314593;*/
-						background: rgb(0, 72, 117);
+						background: rgb(0, 149, 242);
 						color: #fff ;
-						font-weight: 700;
 						transition: all .2s linear;
 					}
 						#nav > ul > li.current > a:hover
@@ -2392,7 +2397,7 @@
 				width: 275px;
 				z-index: 10002;
 				color: #858484;
-				background-image: url("images/bg02.png");
+				background-image: url("images/bg.png");
 				box-shadow: inset -3px 0px 5px 0px rgba(0, 0, 0, 0.35);
 			}
 
@@ -2500,6 +2505,11 @@
 						margin: 0;
 					}
 
+					figure
+					{
+						height: 100px
+					}
+
 		/* Header */
 
 			#header {
@@ -2555,6 +2565,7 @@
 .mision{
 	width: 70%;
 	margin: 0 auto;
+	height: 280px
 }
 	
 	img{
