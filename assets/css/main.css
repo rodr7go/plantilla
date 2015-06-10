@@ -1884,7 +1884,7 @@
 		/* Wrappers */
 
 			#header-wrapper {
-				padding: 3em 0 4em 0;
+				padding: 1em 0 2em 0;
 			}
 
 			#main-wrapper {
@@ -1912,7 +1912,7 @@
 				#header h1 {
 					color: #252122;
 					font-weight: 900;
-					font-size: 2.5em;
+					font-size: 0;
 					letter-spacing: -0.035em;
 					margin: 0 0 1em 0;
 				}
@@ -2015,7 +2015,7 @@
 
 			#banner {
 				position: relative;
-				padding: 8em 0;
+				padding: 4em 0;
 				margin: 4em 0 0 0;
 			}
 
@@ -2579,4 +2579,14 @@ span{
 header h3
 {
 	text-align: center;
+}
+
+
+
+
+
+/* CUSTOM */
+
+.conoce{
+	padding: 2em 0;
 }
